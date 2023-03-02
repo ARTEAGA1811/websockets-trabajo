@@ -1,0 +1,41 @@
+.contenedor_juego{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    margin: 2rem 3rem;
+    column-gap: 2rem;
+    row-gap: 2rem;
+
+
+}
+
+
+.salud{
+    justify-self: center;
+}
+
+.padreContainer{
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    height: 12rem;
+    cursor: pointer;
+}
+.personaje_contenedor{
+    width: 8rem;
+    max-width: 8rem;
+}
+
+.imagen{
+    width: 100%;
+}
+
+.btn_container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    margin-top: 0.4rem;
+}
